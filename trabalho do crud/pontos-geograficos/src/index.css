@@ -1,0 +1,85 @@
+/* Estilos globais da aplicação */
+
+/* Definição de cores e medidas reutilizáveis */
+:root {
+  --cor-primaria: #2563eb;
+  --cor-primaria-hover: #1d4ed8;
+  --cor-secundaria: #64748b;
+  --cor-sucesso: #10b981;
+  --cor-perigo: #ef4444;
+  --cor-perigo-hover: #dc2626;
+  --cor-fundo: #f8fafc;
+  --cor-borda: #e2e8f0;
+  --cor-texto: #1e293b;
+  --cor-texto-claro: #64748b;
+  --espacamento: 1rem;
+  --border-radius: 8px;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background-color: var(--cor-fundo);
+  color: var(--cor-texto);
+  line-height: 1.6;
+}
+
+/* Container para centralizar conteúdo */
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: var(--espacamento);
+}
+
+/* Botões gerais */
+button, .btn-novo, .btn-voltar, .btn-salvar {
+  padding: 0.5rem 1rem;
+  border-radius: var(--border-radius);
+  border: none;
+  cursor: pointer;
+  font-size: 0.9rem;
+  font-weight: 500;
+  text-decoration: none;
+  display: inline-block;
+  transition: background-color 0.2s;
+}
+
+.btn-novo, .btn-salvar {
+  background-color: var(--cor-primaria);
+  color: white;
+}
+
+.btn-novo:hover, .btn-salvar:hover:not(:disabled) {
+  background-color: var(--cor-primaria-hover);
+}
+
+.btn-salvar:disabled {
+  background-color: var(--cor-secundaria);
+  cursor: not-allowed;
+}
+
+.btn-voltar {
+  background-color: var(--cor-secundaria);
+  color: white;
+}
+
+.btn-voltar:hover {
+  background-color: #475569;
+}
+
+/* Responsividade */
+@media (max-width: 768px) {
+  .container {
+    padding: 0.5rem;
+  }
+  
+  button, .btn-novo, .btn-voltar, .btn-salvar {
+    width: 100%;
+    margin-top: 0.5rem;
+  }
+}

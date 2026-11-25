@@ -1,0 +1,66 @@
+/* Estilos da página de detalhes */
+
+.detalhe-card {
+  background-color: white;
+  padding: 2rem;
+  border-radius: var(--border-radius);
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+  max-width: 600px;
+}
+
+.detalhe-card h1 {
+  margin-bottom: 2rem;
+  color: var(--cor-texto);
+  font-size: 1.75rem;
+}
+
+.detalhe-info {
+  margin-bottom: 2rem;
+}
+
+.info-item {
+  margin-bottom: 1.5rem;
+  padding-bottom: 1rem;
+  border-bottom: 1px solid var(--cor-borda);
+}
+
+.info-item:last-child {
+  border-bottom: none;
+}
+
+.info-item strong {
+  display: block;
+  color: var(--cor-texto-claro);
+  font-size: 0.85rem;
+  margin-bottom: 0.25rem;
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+}
+
+.info-item p {
+  font-size: 1.1rem;
+  color: var(--cor-texto);
+}
+
+.detalhe-acoes {
+  display: flex;
+  gap: 1rem;
+}
+
+/* Responsivo */
+@media (max-width: 768px) {
+  .detalhe-card {
+    padding: 1rem;
+  }
+  
+  .detalhe-acoes {
+    flex-direction: column;
+  }
+  
+  .detalhe-acoes .btn-editar,
+  .detalhe-acoes .btn-excluir,
+  .detalhe-acoes .btn-voltar {
+    width: 100%;
+    text-align: center;
+  }
+}
