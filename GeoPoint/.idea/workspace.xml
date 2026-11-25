@@ -1,0 +1,173 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="d640cfea-3ee9-4fdd-88d8-8309f596edda" name="Changes" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Record" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
+  "lastFilter": {
+    "state": "OPEN",
+    "assignee": "IgorGonzatto"
+  }
+}]]></component>
+  <component name="GithubPullRequestsUISettings"><![CDATA[{
+  "selectedUrlAndAccountId": {
+    "url": "https://github.com/IgorGonzatto/GeoPoint-API-Front.git",
+    "accountId": "1159c2eb-91df-48db-b9bb-883b6f526c37"
+  }
+}]]></component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="mavenHomeTypeForPersistence" value="WRAPPER" />
+      </MavenGeneralSettings>
+    </option>
+  </component>
+  <component name="NextEditCompletionFeaturesState">
+    <decayedCancelled>
+      <entry key="MS100" value="1.0" />
+      <entry key="MS500" value="1.000001497656955" />
+      <entry key="S2" value="1.0447886698569786" />
+      <entry key="S5" value="1.4189828727061031" />
+      <entry key="S10" value="1.9082466983268112" />
+      <entry key="S30" value="2.534566834925794" />
+      <entry key="S60" value="2.7515054064124778" />
+      <entry key="M2" value="2.8715308688094385" />
+      <entry key="M5" value="2.9553513186272995" />
+      <entry key="M10" value="3.310638158556069" />
+      <entry key="M15" value="4.391494290612783" />
+      <entry key="M30" value="9.73737965249161" />
+      <entry key="H1" value="20.597973042568704" />
+      <entry key="H2" value="34.64942890998494" />
+      <entry key="H4" value="47.04841636888051" />
+      <entry key="D1" value="62.237933518652675" />
+      <entry key="W1" value="65.44531266443127" />
+    </decayedCancelled>
+    <decayedSelected>
+      <entry key="MS100" value="0.3511112189345219" />
+      <entry key="MS500" value="0.8129929427702652" />
+      <entry key="S2" value="1.160645108859333" />
+      <entry key="S5" value="1.6229403612592799" />
+      <entry key="S10" value="2.099105754121574" />
+      <entry key="S30" value="3.0173105469947066" />
+      <entry key="S60" value="3.868549308539757" />
+      <entry key="M2" value="5.048313022019229" />
+      <entry key="M5" value="6.475707314305725" />
+      <entry key="M10" value="7.511148097708308" />
+      <entry key="M15" value="9.045394135671183" />
+      <entry key="M30" value="15.878173183686709" />
+      <entry key="H1" value="28.838004429298756" />
+      <entry key="H2" value="44.45778003016693" />
+      <entry key="H4" value="57.60724981679774" />
+      <entry key="D1" value="73.20337250330721" />
+      <entry key="W1" value="76.44164839408235" />
+    </decayedSelected>
+    <decayedShown>
+      <entry key="MS100" value="0.35116699477985025" />
+      <entry key="MS500" value="0.9521569838212665" />
+      <entry key="S2" value="1.6410506351156202" />
+      <entry key="S5" value="2.5330250917163903" />
+      <entry key="S10" value="3.6004510003579293" />
+      <entry key="S30" value="5.334634059936951" />
+      <entry key="S60" value="6.484303391554813" />
+      <entry key="M2" value="7.836317430791334" />
+      <entry key="M5" value="9.390554420437628" />
+      <entry key="M10" value="10.798868957965952" />
+      <entry key="M15" value="13.418676146485291" />
+      <entry key="M30" value="25.598842649269464" />
+      <entry key="H1" value="49.418278279875814" />
+      <entry key="H2" value="79.09151546454608" />
+      <entry key="H4" value="104.6446313785988" />
+      <entry key="D1" value="135.43879719720098" />
+      <entry key="W1" value="141.88658219706838" />
+    </decayedShown>
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 1,
+  &quot;fromUser&quot;: false
+}</component>
+  <component name="ProjectId" id="3MD4sjNUOzfpqAtCtjb7fkiD5j3" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "ModuleVcsDetector.initialDetectionPerformed": "true",
+    "RequestMappingsPanelOrder0": "0",
+    "RequestMappingsPanelOrder1": "1",
+    "RequestMappingsPanelWidth0": "75",
+    "RequestMappingsPanelWidth1": "75",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.git.unshallow": "true",
+    "RunOnceActivity.typescript.service.memoryLimit.init": "true",
+    "Spring Boot.GeoPointApplication.executor": "Run",
+    "git-widget-placeholder": "main",
+    "kotlin-language-version-configured": "true",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "python.packages.toolwindow.project.migrated.to.right.top.v2": "true",
+    "settings.editor.selected.configurable": "project.propVCSSupport.DirectoryMappings"
+  },
+  "keyToStringList": {
+    "com.intellij.ide.scratch.ScratchImplUtil$2/New Scratch File": [
+      "TEXT"
+    ]
+  }
+}]]></component>
+  <component name="RunManager">
+    <configuration name="GeoPointApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
+      <module name="GeoPoint" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="br.edu.atitus.geopoint.GeoPointApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+  </component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="bundled-jdk-30f59d01ecdd-ac68fc9d2b05-intellij.indexing.shared.core-IU-263.7307.200" />
+        <option value="bundled-js-predefined-d6986cc7102b-56aff7b04f6f-JavaScript-IU-263.7307.200" />
+      </set>
+    </attachedChunks>
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="d640cfea-3ee9-4fdd-88d8-8309f596edda" name="Changes" comment="" />
+      <created>1794872012592</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1794872012592</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <ignored-roots>
+      <path value="$PROJECT_DIR$" />
+    </ignored-roots>
+  </component>
+</project>
