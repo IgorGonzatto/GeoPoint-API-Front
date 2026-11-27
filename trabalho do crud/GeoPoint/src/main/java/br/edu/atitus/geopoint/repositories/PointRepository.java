@@ -36,6 +36,46 @@ public class PointRepository {
 
         return point;
     }
+
+    public PointEntity update(PointEntity point) {
+
+        String sql = """
+        UPDATE points
+        SET name = ?,
+            description = ?,
+            latitude = ?,
+            longitude = ?
+        WHERE id = ?
+        """;
+
+        int rows = jdbcTemplate.update(
+                sql,
+                point.getName(),
+                point.getDescription(),
+                point.getLatitude(),
+                point.getLongitude(),
+                point.getId()
+        );
+
+        if (rows == 0)
+            throw new EmptyResultDataAccessException(1);
+
+        return point;
+    }
+
+    public void delete(UUID id) {
+
+        String sql = """
+        DELETE FROM points
+        WHERE id = ?
+        """;
+
+        int rows = jdbcTemplate.update(sql, id);
+
+        if (rows == 0)
+            throw new EmptyResultDataAccessException(1);
+    }
+
     private final RowMapper<PointEntity> rowMapper = (rs, rowNum) -> {
         PointEntity point = new PointEntity();
 

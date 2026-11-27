@@ -46,6 +46,44 @@ public class PointService {
         return repository.insert(point);
 
     }
+
+    public PointEntity update(UUID id, PointRequest pointRequest) {
+
+        if (pointRequest == null)
+            throw new RuntimeException("Objeto Nulo");
+
+        if (pointRequest.name() == null || pointRequest.name().isBlank())
+            throw new RuntimeException("Nome Inválido");
+
+        if (pointRequest.latitude() == null
+                || pointRequest.latitude().compareTo(BigDecimal.valueOf(-90)) < 0
+                || pointRequest.latitude().compareTo(BigDecimal.valueOf(90)) > 0)
+            throw new RuntimeException("Latitude inválida - Intervalo aceito: -90 a 90");
+
+        if (pointRequest.longitude() == null
+                || pointRequest.longitude().compareTo(BigDecimal.valueOf(-180)) < 0
+                || pointRequest.longitude().compareTo(BigDecimal.valueOf(180)) > 0)
+            throw new RuntimeException("Longitude inválida - Intervalo aceito: -180 a 180");
+
+        PointEntity point = findById(id);
+
+        point.setName(pointRequest.name().trim());
+        point.setDescription(pointRequest.description().trim());
+        point.setLatitude(pointRequest.latitude());
+        point.setLongitude(pointRequest.longitude());
+
+        return repository.update(point);
+    }
+
+    public void delete(UUID id) {
+
+        // Verifica se a localização existe
+        findById(id);
+
+        // Solicita a exclusão ao Repository
+        repository.delete(id);
+    }
+
     public List<PointEntity> findAll() {
 
         return repository.findAll();
